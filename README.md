@@ -48,3 +48,34 @@ Scoring criteria:
 - 60%: Spot all the bugs
 - 20%: Fix all the bugs and push the proposed solution to your repository online
 - 20%: Explain the solved exercise in the README, in the best possible way
+
+#Solution 
+
+
+#First Bug
+
+Was solved by replacing "." with "\\" as chelu said.
+
+##Second Bug
+
+The boundary of the function nextint(2) needs to be changed to next(3).
+
+###Third Bug
+
+For the function switch there are no breaks.Therefore it should be like the fol$
+
+ switch (random.nextInt(3))
+        {
+            case 0:
+                word = new StringBuffer("Y");
+                break;
+            case 1:
+                word = new StringBuffer("F");
+                break;
+            case 2:
+                word = new StringBuffer("T");
+                break;
+
+####Fourth Bug
+
+introduce quotes correctly.
